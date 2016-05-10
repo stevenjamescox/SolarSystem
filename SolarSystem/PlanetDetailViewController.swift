@@ -45,7 +45,31 @@ class PlanetDetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+        
+  /*      override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+            // #warning Incomplete implementation, return the number of sections
+            return 1
+        }
+        
+        override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+            // #warning Incomplete implementation, return the number of rows
+            return daysOfTheWeek.count
+        }
+        
+        
+        override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+            let cell = tableView.dequeueReusableCellWithIdentifier("dayCell", forIndexPath: indexPath)
+            let day = daysOfTheWeek[indexPath.row]
+            cell.textLabel?.text = day
+            return cell
+        }
+        
+        
+        override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+            return 100
+        }
 
+ */
     /*
     // MARK: - Navigation
 
