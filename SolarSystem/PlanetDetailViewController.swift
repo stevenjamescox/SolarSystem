@@ -10,27 +10,32 @@ import UIKit
 
 class PlanetDetailViewController: UIViewController {
 
+    
+    var Planet: String?
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        for world in planets(){
+    
     @IBOutlet weak var planetImage: UIImageView!
     
     
     @IBOutlet weak var planetName: UILabel!
     
+    
     @IBOutlet weak var planetDiameter: UILabel!
     
+    
     @IBOutlet weak var dayLength: UILabel!
+    
     
     @IBOutlet weak var distanceFromSun: UILabel!
     
     
     
     
-    
-    
-    
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
+
 
         // Do any additional setup after loading the view.
     }
