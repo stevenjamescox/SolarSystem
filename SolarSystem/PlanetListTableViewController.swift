@@ -32,8 +32,6 @@ class PlanetListTableViewController: UITableViewController {
         return cell
     }
 
-
-   
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 
         
