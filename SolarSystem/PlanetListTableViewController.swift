@@ -35,7 +35,7 @@ class PlanetListTableViewController: UITableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 
         
-        if segue.identifier == "toPlanetDetail" {
+        if segue.identifier == "planetCell" {
             if let planetDetailViewController = segue.destinationViewController as? PlanetDetailViewController,
                 let selectedIndex = self.tableView.indexPathForSelectedRow {
             
