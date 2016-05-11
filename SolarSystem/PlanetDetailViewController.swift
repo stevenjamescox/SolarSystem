@@ -10,40 +10,55 @@ import UIKit
 
 class PlanetDetailViewController: UIViewController {
 
-    
-    var Planet: String?
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        for world in planets(){
-    
     @IBOutlet weak var planetImage: UIImageView!
-    
     
     @IBOutlet weak var planetName: UILabel!
     
-    
     @IBOutlet weak var planetDiameter: UILabel!
-    
     
     @IBOutlet weak var dayLength: UILabel!
     
-    
     @IBOutlet weak var distanceFromSun: UILabel!
     
+    var planet: Planet?
+    
+
+
+   override func viewDidLoad() {
+        super.viewDidLoad()
+    
+    if let planet = planet {
+    updateWithPlanet(planet)
+        
+    }
+    }
+    
+ 
+    func updateWithPlanet(planet: Planet){
+        title = planet.name
+        planetImage.image = UIImage(named: planet.imageName)
+        planetDiameter.text = "\(planet.diameter)"
+        dayLength.text = "\(planet.dayLength)"
+        distanceFromSun.text = "\(planet.millionKMsFromSun)"
     
     
+    }
+    
+
+}
+
+    
+
     
 
 
         // Do any additional setup after loading the view.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+
+    //override func didReceiveMemoryWarning() {
+      //  super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
+    
     
         
   /*      override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -78,6 +93,6 @@ class PlanetDetailViewController: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
+ 
 
-}
+*/

@@ -18,7 +18,7 @@
 		68816AAD1BBB35EC000569CE /* PlanetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68816AA91BBB35E8000569CE /* PlanetController.swift */; };
 		68816AAE1BBB35EC000569CE /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68816AAA1BBB35E8000569CE /* Planet.swift */; };
 		95074ED21CE2814800BC576A /* PlanetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95074ED11CE2814800BC576A /* PlanetDetailViewController.swift */; };
-		95074ED41CE28BF000BC576A /* PlanetLIstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95074ED31CE28BF000BC576A /* PlanetLIstTableViewController.swift */; };
+		95074ED41CE28BF000BC576A /* PlanetListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95074ED31CE28BF000BC576A /* PlanetListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		68816AA91BBB35E8000569CE /* PlanetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetController.swift; sourceTree = "<group>"; };
 		68816AAA1BBB35E8000569CE /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		95074ED11CE2814800BC576A /* PlanetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetDetailViewController.swift; sourceTree = "<group>"; };
-		95074ED31CE28BF000BC576A /* PlanetLIstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetLIstTableViewController.swift; sourceTree = "<group>"; };
+		95074ED31CE28BF000BC576A /* PlanetListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 			children = (
 				68816A7B1BBB3591000569CE /* AppDelegate.swift */,
 				68816A7F1BBB3591000569CE /* Main.storyboard */,
-				95074ED31CE28BF000BC576A /* PlanetLIstTableViewController.swift */,
+				95074ED31CE28BF000BC576A /* PlanetListTableViewController.swift */,
 				95074ED11CE2814800BC576A /* PlanetDetailViewController.swift */,
 				68816AA91BBB35E8000569CE /* PlanetController.swift */,
 				68816AAA1BBB35E8000569CE /* Planet.swift */,
@@ -270,7 +270,7 @@
 				68816A7C1BBB3591000569CE /* AppDelegate.swift in Sources */,
 				95074ED21CE2814800BC576A /* PlanetDetailViewController.swift in Sources */,
 				68816AAC1BBB35E8000569CE /* Planet.swift in Sources */,
-				95074ED41CE28BF000BC576A /* PlanetLIstTableViewController.swift in Sources */,
+				95074ED41CE28BF000BC576A /* PlanetListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
