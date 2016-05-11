@@ -66,12 +66,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pbp-63-X7U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1374" y="1718"/>
+            <point key="canvasLocation" x="1424" y="1702"/>
         </scene>
-        <!--PlanetL Ist Table View Controller-->
+        <!--Planet List Table View Controller-->
         <scene sceneID="iij-6r-Far">
             <objects>
-                <tableViewController id="7FM-Lp-rY7" customClass="PlanetLIstTableViewController" customModule="SolarSystem" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="7FM-Lp-rY7" customClass="PlanetListTableViewController" customModule="SolarSystem" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="pp1-8a-YDp">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,6 +84,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="T6N-WK-Zpf" kind="show" identifier="planetCell" id="goU-Av-6O0"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -95,7 +98,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zTd-bR-6fr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="720" y="1702"/>
+            <point key="canvasLocation" x="730" y="1702"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="JLk-P1-3dx">
