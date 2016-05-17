@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="roU-Ys-csY">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Our Solar System-->
@@ -68,33 +67,39 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J4r-lN-Lsb">
                                 <rect key="frame" x="166" y="64" width="269" height="261"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="261" id="yfF-Ux-5A7"/>
-                                    <constraint firstAttribute="width" constant="269" id="zCu-CK-WRB"/>
+                                    <constraint firstAttribute="width" constant="269" id="Rxy-ig-8QS"/>
+                                    <constraint firstAttribute="height" constant="261" id="h4v-d6-2Z5"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="mHZ-UQ-inG">
-                                <rect key="frame" x="20" y="503" width="560" height="97"/>
+                                <rect key="frame" x="208" y="421" width="184" height="120"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PlanetName" textAlignment="center" lineBreakMode="wordWrap" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jry-pW-BZ9">
-                                        <rect key="frame" x="218" y="0.0" width="125" height="28"/>
+                                        <rect key="frame" x="30" y="0.0" width="125" height="28"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PlanetDiameter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYs-uh-j2r">
-                                        <rect key="frame" x="221" y="30" width="118" height="21"/>
+                                        <rect key="frame" x="33" y="30" width="118" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PlanetDayLength" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prM-Jl-HbW">
-                                        <rect key="frame" x="215" y="53" width="131" height="21"/>
+                                        <rect key="frame" x="27" y="53" width="131" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PlanetDistanceFromSun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="887-vn-SgC">
-                                        <rect key="frame" x="188" y="76" width="184" height="21"/>
+                                        <rect key="frame" x="0.0" y="76" width="184" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="PlanetAvgTemp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLA-m6-b7R">
+                                        <rect key="frame" x="32" y="99" width="120" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -104,11 +109,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="mHZ-UQ-inG" firstAttribute="leading" secondItem="QSy-aU-bnH" secondAttribute="leadingMargin" id="3Xw-Qe-zem"/>
-                            <constraint firstItem="J4r-lN-Lsb" firstAttribute="centerX" secondItem="mHZ-UQ-inG" secondAttribute="centerX" id="4qw-k3-KAX"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="mHZ-UQ-inG" secondAttribute="trailing" id="peI-4t-FSP"/>
-                            <constraint firstItem="Ru6-3p-Nds" firstAttribute="top" secondItem="mHZ-UQ-inG" secondAttribute="bottom" id="rwB-3A-dzf"/>
-                            <constraint firstItem="J4r-lN-Lsb" firstAttribute="top" secondItem="Xwz-PP-rEv" secondAttribute="bottom" id="sPF-17-PSf"/>
+                            <constraint firstItem="Ru6-3p-Nds" firstAttribute="top" secondItem="mHZ-UQ-inG" secondAttribute="bottom" constant="59" id="D7R-IR-MER"/>
+                            <constraint firstItem="mHZ-UQ-inG" firstAttribute="centerX" secondItem="J4r-lN-Lsb" secondAttribute="centerX" id="EBM-VT-y8h"/>
+                            <constraint firstItem="mHZ-UQ-inG" firstAttribute="centerX" secondItem="QSy-aU-bnH" secondAttribute="centerX" id="FRK-UM-RII"/>
+                            <constraint firstItem="J4r-lN-Lsb" firstAttribute="top" secondItem="Xwz-PP-rEv" secondAttribute="bottom" id="OyF-R1-e1a"/>
                         </constraints>
                     </view>
                     <connections>
