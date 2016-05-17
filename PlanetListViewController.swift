@@ -41,11 +41,10 @@ class PlanetListViewController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("planetCell", forIndexPath: indexPath)
         let planetInfo = PlanetController.planets[indexPath.row]
         cell.textLabel?.text = planetInfo.name
+        cell.textLabel?.textAlignment = .Center
         cell.imageView?.contentMode = .Redraw
         cell.imageView?.image = UIImage(named: planetInfo.imageName)
-        cell.detailTextLabel?.text = "planet \(indexPath.row + 1)"
-
-
+        cell.detailTextLabel?.text = "planet \(indexPath.row + 1) from the Sun"
 
         return cell
     }
