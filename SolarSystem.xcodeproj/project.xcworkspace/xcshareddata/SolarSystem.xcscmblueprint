@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "08C892E43D40F17BBA6B1AD1ACD000CCBCD89203",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BB7E661764048F9FD04E750004EC12C3AEF443E9" : 0,
+    "08C892E43D40F17BBA6B1AD1ACD000CCBCD89203" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2C9D0342-764E-4AA8-9D36-FCE941F3C708",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BB7E661764048F9FD04E750004EC12C3AEF443E9" : "",
+    "08C892E43D40F17BBA6B1AD1ACD000CCBCD89203" : "SolarSystem\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SolarSystem",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SolarSystem.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/stevenjamescox\/SolarSystem.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "08C892E43D40F17BBA6B1AD1ACD000CCBCD89203"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/stevenjamescox\/Module-7.2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BB7E661764048F9FD04E750004EC12C3AEF443E9"
+    }
+  ]
+}
