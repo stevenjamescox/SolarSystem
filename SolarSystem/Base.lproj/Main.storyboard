@@ -94,6 +94,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="planetDayLengthLabel" destination="prM-Jl-HbW" id="DV3-A1-UuR"/>
+                        <outlet property="planetDiameterLabel" destination="uYs-uh-j2r" id="Qvj-U2-sNs"/>
+                        <outlet property="planetDistanceFromSunLabel" destination="887-vn-SgC" id="J9X-WH-qgc"/>
+                        <outlet property="planetImageSpot" destination="J4r-lN-Lsb" id="fA8-nq-d42"/>
+                        <outlet property="planetNameLabel" destination="jry-pW-BZ9" id="lJ4-eP-DOo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CN8-Gf-AQ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
