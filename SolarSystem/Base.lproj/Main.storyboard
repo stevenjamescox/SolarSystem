@@ -98,13 +98,16 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="PlanetAvgTemp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLA-m6-b7R">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PlanetAvgTemp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLA-m6-b7R">
                                         <rect key="frame" x="32" y="99" width="120" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="bLA-m6-b7R" firstAttribute="centerX" secondItem="mHZ-UQ-inG" secondAttribute="centerX" id="M83-Q1-e0i"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -116,6 +119,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="planetAvgTemp" destination="bLA-m6-b7R" id="xyt-EE-mur"/>
                         <outlet property="planetDayLengthLabel" destination="prM-Jl-HbW" id="DV3-A1-UuR"/>
                         <outlet property="planetDiameterLabel" destination="uYs-uh-j2r" id="Qvj-U2-sNs"/>
                         <outlet property="planetDistanceFromSunLabel" destination="887-vn-SgC" id="J9X-WH-qgc"/>

@@ -20,6 +20,8 @@ class PlanetDetailViewController: UIViewController {
     
     @IBOutlet weak var planetDiameterLabel: UILabel!
     
+    @IBOutlet weak var planetAvgTemp: UILabel!
+    
     var planet: Planet?
     
     override func viewDidLoad() {
@@ -34,9 +36,10 @@ class PlanetDetailViewController: UIViewController {
     
         planetNameLabel.text = planet.name
         planetImageSpot.image = UIImage(named: planet.imageName)
-        planetDayLengthLabel.text = "Length of day: \(planet.dayLength)"
-        planetDistanceFromSunLabel.text = "Distance from Sun: \(planet.millionKMsFromSun)"
-        planetDiameterLabel.text = "Diameter: \(planet.diameter)"
+        planetDayLengthLabel.text = "Length of day: \(planet.dayLength) Earth hours"
+        planetDistanceFromSunLabel.text = "Distance from Sun: \(planet.millionKMsFromSun) million km"
+        planetDiameterLabel.text = "Diameter: \(planet.diameter) km"
+        planetAvgTemp.text = "Average Temp: \(planet.averageTemp) °F"
     }
 
     override func didReceiveMemoryWarning() {
