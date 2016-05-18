@@ -13,12 +13,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <imageView key="tableHeaderView" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solarsystem" id="taF-P3-07T">
-                            <rect key="frame" x="0.0" y="64" width="600" height="350"/>
+                            <rect key="frame" x="0.0" y="64" width="600" height="245"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="planetCell" textLabel="LUs-Pm-e1e" detailTextLabel="zT4-S9-mJ8" style="IBUITableViewCellStyleValue1" id="KrF-59-Vs7">
-                                <rect key="frame" x="0.0" y="442" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="337" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KrF-59-Vs7" id="Alx-2x-Mm2">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
